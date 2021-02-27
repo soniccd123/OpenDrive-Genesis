@@ -22,3 +22,18 @@ What it doesnt do compared to commercially available carts:
 - Does not support Sega CD games and special chips (and probably never will);
 
 This project is possible thanks to TmEE (NESdev Forums, SRAM wiring schematics), Rene Richard (db-electronics on GitHUB, KiCAD libs for the Genesis cart connector), lidnariq (NESdev Forums, Safe level-shifting), Ziggy587 (Racketboy, ideas, sugestions, support and encouragement), The Racketboy and NESdev forums.
+
+# Building the cartridge
+I recommend that the release folder is used, the Bill of Materials is contained in the CSV file. The develop folder also works and its the actually tested cart by me, it only has aditional footprints for a being tested bank switching circuit.
+
+The FM1808 is also not strictly necessary if you don't plan to save your games. The 74HC74 and the 74HC139 are still necessary in this case for the correct CE signaling.
+
+You must short the JP1 jumper acordinly to the type of games you're going to use:
+- For save support on <2MB games, short pins 1 and 2 (<2MB on the cart);
+- For save support on >2MB games, short pins 3 and 2 (>2MB on the cart);
+- If the save support is not necessary and the FM1808 is not soldered, short the 3 and 2 pins (>2MB on the cart).
+
+With this the cart should be ready for writing and playing!
+
+# Disclaimer
+I'm not a professional hardware engineer, while this flashcart was designed to be the safest possible to your console, I'm not responsible for any damages done if used or built wrong. Also, revise the design always before building the PCB, I'm a amateur human and errors may have been commited. It you spot anything, hit me with a message and I will happily fix that. Also, any sugestions are welcome!
