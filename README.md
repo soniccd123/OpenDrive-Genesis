@@ -35,5 +35,13 @@ You must short the JP1 jumper acordinly to the type of games you're going to use
 
 With this the cart should be ready for writing and playing!
 
+# Documentation
+- Technical Manual, in constant work, sugestions welcome: https://docs.google.com/document/d/e/2PACX-1vTHuY665FCTQgpWVqtx0Hk3dTyNgIxMEns0RzGF2l86pw4OjIR6taxs3owxL13b5aOQaE71-1f7qCdJ/pub
+- MX29L3211 Datasheet: http://www.wolfgangrobel.de/electronics/datasheets/eprom/MX29L3211.pdf
+- FM1808 Datasheet: https://datasheet.octopart.com/FM1808-70-PG-Ramtron-datasheet-8328945.pdf
+- 74HC74 Datasheet: https://assets.nexperia.com/documents/data-sheet/74HC_HCT74.pdf
+- 74HC139 Datasheet https://assets.nexperia.cn/documents/data-sheet/74HC_HCT139.pdf
+- 74LVC8T245 Datasheet: https://assets.nexperia.com/documents/data-sheet/74LVC_LVCH8T245.pdf
+
 # Disclaimer
 I'm not a professional hardware engineer, while this flashcart was designed to be the safest possible to your console, I'm not responsible for any damages done if used or built wrong. Also, revise the design always before building the PCB, I'm a amateur human and errors may have been commited. It you spot anything, hit me with a message and I will happily fix that. Also, any sugestions are welcome!
