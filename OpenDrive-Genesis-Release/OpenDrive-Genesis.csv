@@ -1,0 +1,11 @@
+Designator,Designation,Package,Quantity
+"U10,U9,U13,U8,U7",74LVC8T245,TSSOP-24_4.4x7.8mm_P0.65mm,5
+U4,29L3211,PSOP-44_16.9x27.17mm_P1.27mm,1
+U12,RT9193,SOT-23-5_HandSoldering,1
+"C13,C9,C8,C7,C3,C2",100nF,C_0805_2012Metric_Pad1.15x1.40mm_HandSolder,6
+C12,1uF,C_0805_2012Metric_Pad1.15x1.40mm_HandSolder,1
+"C11,C10",10uF,C_0805_2012Metric_Pad1.15x1.40mm_HandSolder,2
+U3,74LS139,SOIC-16_3.9x9.9mm_P1.27mm,1
+U2,FM1808B-SG,SOIC-28W_7.5x17.9mm_P1.27mm,1
+U1,74HC74,SOIC-14_3.9x8.7mm_P1.27mm,1
+"J1,J2",Conn_01x32_Male,PinSocket_1x32_P2.54mm_Vertical,2

@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name OpenDrive-Genesis)(type Legacy)(uri ${KIPRJMOD}/OpenDrive-Genesis.lib)(options "")(descr ""))
+  (lib (name OpenDrive-Genesis-rescue)(type Legacy)(uri ${KIPRJMOD}/OpenDrive-Genesis-rescue.lib)(options "")(descr ""))
+)
