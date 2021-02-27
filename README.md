@@ -23,6 +23,11 @@ What it doesnt do compared to commercially available carts:
 
 This project is possible thanks to TmEE (NESdev Forums, SRAM wiring schematics), Rene Richard (db-electronics on GitHUB, KiCAD libs for the Genesis cart connector), lidnariq (NESdev Forums, Safe level-shifting), Ziggy587 (Racketboy, ideas, sugestions, support and encouragement), The Racketboy and NESdev forums.
 
+# Other projects of the same family
+- OpenDrive Programmer: https://github.com/soniccd123/OpenDrive-Programmer
+- OpenDrive Programmer firmware: https://github.com/soniccd123/OpenDrive-Programmer-firmware
+- OpenDrive Editor: https://github.com/soniccd123/OpenDrive-Editor
+
 # Building the cartridge
 I recommend that the release folder is used, the Bill of Materials is contained in the CSV file. The develop folder also works and its the actually tested cart by me, it only has aditional footprints for a being tested bank switching circuit.
 
